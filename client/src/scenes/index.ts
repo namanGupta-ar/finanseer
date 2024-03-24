@@ -1,9 +1,3 @@
-import Dashboard from "./dashboard";
-import Navbar from "./navbar";
-import Predictions from "./predictions";
-
-export {
-    Dashboard,
-    Navbar,
-    Predictions
-}
+export { default as Dashboard } from './dashboard';
+export { default as Navbar } from './navbar';
+export { default as Predictions } from './predictions';
